@@ -2,6 +2,24 @@
 
 9th June: I plan to fix the python bugs
 
+Process:
+
+Read and digest instructions
+
+Set a debugging breakpoint at (original) line 19 and watched the variable `value` to find what was registering as int that wasn't an int
+
+Found that False and True were doing so
+
+REPL python:
+```
+>>> isinstance(False, int)
+True
+```
+
+Proposed fix: move the elif which catches booleans to precede the one which catches integers.
+
+
+
 Below is the original README
 
 ## Welcome to our debugging challenges
