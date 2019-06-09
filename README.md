@@ -1,6 +1,7 @@
-# 9th June: I plan to fix the python bugs
+# Debugging practice
 
-# Below is the original README
+9th June: I plan to fix the python bugs
+Below is the original README
 
 ## Welcome to our debugging challenges
 
