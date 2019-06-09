@@ -18,6 +18,7 @@ True
 
 Proposed fix: move the elif which catches booleans to precede the one which catches integers.
 
+Done in this commit: https://github.com/david-mears/debugging-challenges/commit/227cf914c49855ef96456259857c4622a87424fc
 
 
 Below is the original README
