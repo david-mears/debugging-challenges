@@ -14,12 +14,12 @@ result = []
 # import pdb
 # pdb.set_trace()
 
-for key, value in stuff.iteritems():
-    if isinstance(value, int):
-        result.append(dict(name=key, value=value, type='int'))
-    elif isinstance(value, float):
-        result.append(dict(name=key, value=value, type='float'))
-    elif isinstance(value, bool):
+for key, value in stuff.items():
+    if isinstance(value, bool):
         result.append(dict(name=key, type='bool',
                            value=value and 'true' or 'false'))
+    elif isinstance(value, float):
+        result.append(dict(name=key, value=value, type='float'))
+    elif isinstance(value, int):
+        result.append(dict(name=key, value=value, type='int'))
 pprint(result)
