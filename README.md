@@ -1,3 +1,7 @@
+# 9th June: I plan to fix the python bugs
+
+# Below is the original README
+
 ## Welcome to our debugging challenges
 
 Please choose the language you want to learn to debug with. We offer:
